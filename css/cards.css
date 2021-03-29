@@ -1,0 +1,205 @@
+@font-face {
+    font-family: nashville;
+    src: url(../html/fonts/IFC\ RAILROAD\ 2.ttf);
+  }
+  ::selection {
+    color: none;
+    background: none;
+}
+/* For Mozilla Firefox */
+::-moz-selection {
+    color: none;
+    background: none;
+}
+h1{
+    color: black;
+    font-size: 50px;
+    text-shadow: lavender 2px 2px;  
+}
+body{
+    background-image:url('../html/images/woodgrain.jpg') ;
+    font-stretch: extra-expanded;
+    font-size: larger;
+    font-family: nashville;
+}
+body.noScroll{
+    overflow: hidden;
+}
+.Titlemargin{
+    margin-left: 300px;
+}
+.Title{
+    
+    text-align: center;
+    background-image:url('../html/images/green_felt.jpg');
+    border: grey ridge 3px;
+    min-width: 500px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: hidden;
+}
+.directionmargin{
+    margin-left: 300px;
+}
+
+.Directions{
+    background-image:url('../html/images/green_felt.jpg') ;
+    border: grey ridge 3px;
+    color: white;
+    text-shadow: black 2px 2px;
+    text-align: center;
+    min-width: 500px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: hidden;   
+}
+.Sharelink{
+    border: white solid 3px;
+    border-radius: 20px; 
+    color: white;
+    text-shadow: black 2px 2px;
+    text-align: center;
+    max-width: 300px;
+    min-width: 300px;
+    margin: auto;
+    margin-right: 10px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    visibility: hidden;
+}
+.Sharelink:hover{
+    background-color: white;
+    color: black;
+    text-shadow: grey;
+
+}
+.Sharelink:active{
+    background-color: black;
+    color: white;
+    text-shadow: grey;
+}
+.Startgame{
+    border: white solid 3px;
+    border-radius: 20px; 
+    color: white;
+    text-shadow: black 2px 2px;
+    text-align: center;
+    visibility: hidden;
+    min-width: 300px;
+    margin: auto;
+    margin-right: 10px;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+.Startgame:hover{
+    background-color: white;
+    color: black;
+    text-shadow: grey;
+
+}
+.Startgame:active{
+    background-color: black;
+    color: white;
+    text-shadow: grey;
+}
+/*
+.deck:hover{
+    border: white solid 1px; 
+}
+.dealer{
+    position: absolute;
+    top:600px;
+    left:750px;
+    border: black solid 2px;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    visibility: hidden;
+   
+}
+
+.player1{
+    position: absolute;
+    top:200px;
+    left:100px;
+    border: black solid 2px;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+.player2{
+    position: absolute;
+    top:405px;
+    left:100px;
+    border: black solid 2px;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+.player3{
+    position: absolute;
+    top:610px;
+    left:100px;
+    border: black solid 2px;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+.player4{
+    position: absolute;
+    top:405px;
+    left:1350px;
+    border: black solid 2px;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+.player5{
+    position: absolute;
+    top:610px;
+    left:1350px;
+    border: black solid 2px;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+} 
+.pool{
+    position: absolute;
+    top:25px;
+    left:750px;
+    border: black solid 2px;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    visibility: hidden;
+}
+.deckbox{
+    text-align: center;
+    border: black solid 3px;
+    width: 450px;
+    height: 340px;
+    top: 250px;
+    left: 725px;
+    position: absolute;
+    visibility: hidden;
+}
+.decknumber{
+    text-align: center;
+    color: white;
+    position: absolute;
+    visibility: hidden;
+    top:0px;
+    left:0px;
+}
+*/
+footer{
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom:10px    
+}
+
